@@ -1,0 +1,46 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.about-container h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.certification-container {
+  margin-top: 50px;
+}
+
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.certification-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.certification-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.certification-item h3 {
+  font-size: 18px;
+  margin: 0;
+}
